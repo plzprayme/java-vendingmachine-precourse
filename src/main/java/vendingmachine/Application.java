@@ -9,6 +9,8 @@ public class Application {
         ConsolePrinter printer = new ConsolePrinter();
         ConsoleReader reader = new ConsoleReader(printer);
         String holdingMoney = reader.readHoldingMoney();
+        CoinExchanger exchanger = new CoinExchanger();
+        CoinPocket holdingCoin = new CoinPocket();
         VendingMachine machine = new VendingMachine();
     }
 }
