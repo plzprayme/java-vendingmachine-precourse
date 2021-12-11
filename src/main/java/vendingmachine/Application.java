@@ -1,7 +1,14 @@
 package vendingmachine;
 
+import vendingmachine.io.ConsolePrinter;
+import vendingmachine.io.ConsoleReader;
+import vendingmachine.service.VendingMachine;
+
 public class Application {
     public static void main(String[] args) {
-        // TODO: 프로그램 구현
+        ConsolePrinter printer = new ConsolePrinter();
+        ConsoleReader reader = new ConsoleReader(printer);
+        String holdingMoney = reader.readHoldingMoney();
+        VendingMachine machine = new VendingMachine();
     }
 }

@@ -2,7 +2,7 @@
 
 ## 기능 구현 목록
 - [ ] 입력
-  - [ ] 자판기 보유 금액
+  - [X] 자판기 보유 금액
   - [ ] 상품명, 가격, 수량 
   - [ ] 투입 금액
 - [ ] 출력
@@ -26,10 +26,10 @@
   - [ ] 존재하는 상품만 구매할 수 있다.
 
 ## 구현 객체 목록
-- [ ] ConsolePrinter
-  - [ ] 출력 담당
-- [ ] ConsoleReader
-  - [ ] 입력 담당
+- [X] ConsolePrinter
+  - [X] 출력 담당
+- [X] ConsoleReader
+  - [X] 입력 담당
 - [ ] CoinPocket
   - [ ] Key가 Coin, Value가 Coin의 개수인 Map을 가지고 있다.
 - [ ] CoinExchanger (문자열의 돈을 받아서 CoinPocket으로 리턴)
